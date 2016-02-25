@@ -10,7 +10,7 @@ import java.util.List;
 
 import model.Employee;
 
-public class EmployeeDAO {
+public class MutterDAO {
   public List<Employee> findAll() {
 
     Connection conn = null;

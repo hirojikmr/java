@@ -1,13 +1,13 @@
 import java.util.List;
 
 import model.Employee;
-import dao.EmployeeDAO;
+import dao.MutterDAO;
 
 public class SelectEmployeeSample {
   public static void main(String[] args) {
 
     // employeeテーブルの全レコードを取得
-    EmployeeDAO empDAO = new EmployeeDAO();
+    MutterDAO empDAO = new MutterDAO();
     List<Employee> empList = empDAO.findAll();
 
     // 取得したレコードの内容を出力
